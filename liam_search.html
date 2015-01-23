@@ -1,0 +1,18 @@
+<div class="search-website" data-snippet="book_search">
+  <a href="#" class="label active">Search this website</a>
+  <form action="/search-results">
+    <input value="website" style="display: none;" name="type">
+    <input value="{{{param_query}}}" placeholder="Enter keyword..." class="search" name="query">
+    <input type="submit" id="submit-website-search" value="Search">
+  </form>
+</div>
+
+<div class="search-book">
+  <a href="#" class="label">Quick book search</a>
+  <form action="/home/reading-site/find-a-book/library-page">
+    <input value="book" style="display: none;" name="type">
+    <input value="{{{param_view}}}" style="display: none;" name="view">
+    <input value="{{{param_query}}}" placeholder="Enter keyword..." class="search" name="query">
+    <input type="submit" id="submit-book-search" value="Search">
+  </form>
+</div>
